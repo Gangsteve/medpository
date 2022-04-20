@@ -86,7 +86,7 @@ body{
 #user-image{
     align-self: center;
     margin-bottom: 2vh;
-    width: 14vh;
+    width: 6.5vw;
     border-radius: 50%;
     box-shadow: 0 0 0.5rem rgba(0, 217, 255, 0.493);
 }
@@ -114,7 +114,7 @@ body{
 }
 
 .logout{
-    margin-top: 16vh;
+    margin-top: auto;
     margin-bottom: 0;
     background-color: #242424;
 }
@@ -132,7 +132,80 @@ body{
     margin-right: 1rem;
 }
 
+
+/* Page Content */
 .content{
+    padding: 1rem;
+}
+
+h1{
     color: white;
-    font-size: 1.2rem;
+    text-shadow: rgba(0, 217, 255, 0.863) 1px 0 10px;
+    font-size: 4vw;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 50;
+    display: block;
+}
+
+p{
+    color: lightgrey;
+    font-size: 1.2vw;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    display: block;
+}
+
+
+/* Cards CSS */
+
+.myCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 16vw;
+    background-color: #1d1d1d;
+    border-radius: 1.5vw;
+    margin: 2vh;
+}
+
+.myCard-img{
+    text-align: center;
+}
+
+.myCard-img i{
+    color: #c7c7c7;
+    font-size: 13vw;
+}
+
+.card-title{
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.8vw;
+    font-weight: 600;
+}
+
+.grid-container{
+    width: 13vw;
+}
+
+.card-content-grid{
+    display: flex;
+    align-items: center;
+}
+
+.items h2{
+    color: white;
+    text-align: center;
+    font-size: 2vw;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.items h3{
+    color: white;
+    text-align: center;
+    font-size: 2vw;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
 }
